@@ -7,13 +7,35 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.EditText;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
+
+    private EditText etn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        etn = (EditText)findViewById(R.id.editTextTextPassword);
+
+    }
+
+    public void Validar(View view){
+        String pass = etn.getText().toString();
+
+        if (pass.length() == 0){
+            Toast.makeText(this, "Por Favor ingrese contraseña", Toast.LENGTH_LONG).show();
+        }else{
+            if (pass.trim().equalsIgnoreCase("clave1234")){
+                Intent i= new Intent(this, AcercaDe.class);
+                startActivity(i);
+            }else {
+                Toast.makeText(this, "Contraseña Incorrecta", Toast.LENGTH_LONG).show();
+            }
+        }
     }
 
 /*  Este codigo solo seria necesario si utilizabamos Action Bar Activity
