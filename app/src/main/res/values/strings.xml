@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Ejercicio_41</string>
+    <string name="programador">Desarrolador: Andres Alvear</string>
+    <string name="version_aplicacion">1</string>
+    <string name="Finalizar">Finalizar Programa</string>
+    <string name="radiosuma">sumar</string>
+    <string name="radiorestar">restar</string>
+    <string name="botonoperacion">operar</string>
+</resources>
