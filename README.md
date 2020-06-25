@@ -1,14 +1,6 @@
-# EjerciciosAndroid
+# Ejercicio 39
 
-Todos los ejercicios realizados estan en diferentes ramas del proyecto
+Se grafica un circulo que podemos desplazarlo por toda la pantalla por el evento onTouch, esto al usar canvas y el evento onTouchlistener permite que la pantalla reconozca las ubicaciones del eje x y para llevar a esa posicion el circulo
 
-Ejercicio 11: Validacion de contraseña y cambio de pantalla, uso de Toast ( Password: clave1234)
 
-Ejercicio 30: Pixel en pantalla, al ser un pixel se lo puede observar muy pequeño dentro de la pantalla
-
-Ejercicio 33: Graficando varios circulos dentro de la pantalla
-
-Ejercicio 39: Se grafica un circulo que podemos desplazarlo por toda la pantalla por el evento onTouch
-
-Ejercicio 41: Suma o Resta de dos valores en que se debe seleccionar a traves de un boton
 
